@@ -22,8 +22,10 @@ namespace WIndowsAuth_ConsoleTest
                 string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
                 Console.WriteLine(userName);
 
-                var c = new CredentialCache();
-                c.Add(new Uri(url), "Negotiate", new NetworkCredential("test", "test@1234"));
+                var c = new CredentialCache
+                {
+                    { new Uri(url), "Negotiate", new NetworkCredential("test", "test@12345", "MODELL01") }
+                };
                 var clHandler = new HttpClientHandler
                 {
                     Credentials = c
