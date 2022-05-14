@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAuth-Test", "WindowsAuth-Test\WindowsAuth-Test.csproj", "{0451CF03-6B9F-4D14-A036-51EAAFC82043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAuth-Test.Tests", "WindowsAuth-Test.Tests\WindowsAuth-Test.Tests.csproj", "{BCC6009C-220E-4551-9B4A-C25717C0026B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{4DF1BE88-C700-4AC7-A880-4E21D5A2A271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service-Test", "Service-Test\Service-Test.csproj", "{EDEDA77B-695F-489D-9828-0ED8F4218E1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{73B161E1-B3A6-42F1-B14F-0669A715C567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIndowsAuth-ConsoleTest", "WIndowsAuth-ConsoleTest\WIndowsAuth-ConsoleTest.csproj", "{6C23AA22-5D01-4E27-8A49-5692055E4366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0451CF03-6B9F-4D14-A036-51EAAFC82043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451CF03-6B9F-4D14-A036-51EAAFC82043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451CF03-6B9F-4D14-A036-51EAAFC82043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451CF03-6B9F-4D14-A036-51EAAFC82043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC6009C-220E-4551-9B4A-C25717C0026B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC6009C-220E-4551-9B4A-C25717C0026B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC6009C-220E-4551-9B4A-C25717C0026B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC6009C-220E-4551-9B4A-C25717C0026B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF1BE88-C700-4AC7-A880-4E21D5A2A271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF1BE88-C700-4AC7-A880-4E21D5A2A271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF1BE88-C700-4AC7-A880-4E21D5A2A271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF1BE88-C700-4AC7-A880-4E21D5A2A271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEDA77B-695F-489D-9828-0ED8F4218E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEDA77B-695F-489D-9828-0ED8F4218E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEDA77B-695F-489D-9828-0ED8F4218E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEDA77B-695F-489D-9828-0ED8F4218E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B161E1-B3A6-42F1-B14F-0669A715C567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B161E1-B3A6-42F1-B14F-0669A715C567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B161E1-B3A6-42F1-B14F-0669A715C567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B161E1-B3A6-42F1-B14F-0669A715C567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C23AA22-5D01-4E27-8A49-5692055E4366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C23AA22-5D01-4E27-8A49-5692055E4366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C23AA22-5D01-4E27-8A49-5692055E4366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C23AA22-5D01-4E27-8A49-5692055E4366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DA0E48A-5A7C-41AC-A368-D078C63B5C3F}
+	EndGlobalSection
+EndGlobal
